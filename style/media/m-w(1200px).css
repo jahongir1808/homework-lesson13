@@ -1,0 +1,82 @@
+@media (max-width: 1200px) {
+  .home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 190px 0 200px;
+  }
+  .home-img,
+  .home-contents {
+    width: 100%;
+  }
+  .home-img {
+    padding-top: 80px;
+    text-align: center;
+  }
+  .sponsors-card {
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .sponsor-card {
+    width: 33%;
+    padding-bottom: 25px;
+  }
+  .needs-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .needs-card {
+    width: 45%;
+    padding: 35px 39px;
+    margin-bottom: 32px;
+  }
+  #gameabout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fps,
+  .multiplayer,
+  .world {
+    flex-basis: 100%;
+    height: 100%;
+  }
+  .flex {
+    padding: 50px 0;
+  }
+  .esport-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .esport-card img {
+    width: 70%;
+  }
+  .esport-card p {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .articles-esports {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .esports-cards {
+    width: 100%;
+  }
+  .esports-card {
+    width: 50%;
+    padding-left: 24px;
+  }
+  .esports-cards {
+    align-items: center;
+    justify-content: center;
+  }
+  .esports-cards img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,123 @@
+@media (max-width: 700px) {
+  .home-img img {
+    width: 100%;
+  }
+  .home-content span {
+    font-size: 8rem;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .home-content p {
+    font-size: 2rem;
+  }
+  .home-btn {
+    font-size: 2rem;
+    padding: 18px 28px;
+  }
+  .home-btn:hover {
+    background: #57b8ff;
+    transition: 0.5s;
+    padding: 18px 28px;
+  }
+  .home-content-border {
+    width: 200px;
+  }
+  .sponsors-card {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .sponsor-card {
+    width: 50%;
+  }
+  .needs-content h2 {
+    width: 80%;
+    font-size: 7rem;
+  }
+
+  .needstext {
+    width: 80%;
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  .needs-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .needs-card:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .needs-card {
+    width: 100%;
+    padding: 35px 39px;
+    margin-bottom: 32px;
+  }
+  .flex img {
+    width: 30%;
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+  }
+  .articles-content {
+    width: 40%;
+  }
+
+  .articles-img {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .articlestext span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .articles-btn1 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 50px;
+  }
+
+  .articles-btn {
+    font-size: 2rem;
+    padding: 18px 30px;
+  }
+  .join h1 {
+    font-size: 7rem;
+    padding-bottom: 45px;
+  }
+
+  .join-text1 {
+    width: 60%;
+    font-size: 1.8rem;
+  }
+
+  .join-text2 {
+    font-size: 1.8rem;
+    padding-bottom: 40px;
+  }
+  .join-inputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  input[type="email"] {
+    width: 50%;
+    font-size: 2rem;
+    padding: 18px 10px;
+  }
+  .join-btn {
+    font-size: 2rem;
+    padding: 18px 10px;
+  }
+}

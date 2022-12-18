@@ -1,0 +1,190 @@
+@media (max-width: 500px) {
+  .navbar-shrink {
+    padding: 15px 0 10px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  .futuretext {
+    font-size: 1.5rem;
+  }
+  .home-content span {
+    font-size: 5rem;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .home-content p {
+    font-size: 1.7rem;
+  }
+  .home-btn {
+    font-size: 1.7rem;
+    padding: 14px 24px;
+  }
+  .home-btn:hover {
+    background: #57b8ff;
+    transition: 0.5s;
+    padding: 14px 24px;
+  }
+  .hamburger img {
+    width: 35px;
+    height: 35px;
+  }
+  #dark-light img {
+    width: 35px;
+    height: 35px;
+  }
+  #backtop img {
+    width: 25px;
+    height: 25px;
+  }
+  #sponsors {
+    padding: 50px 0;
+  }
+  .content-border_ h2 {
+    font-size: 5rem;
+  }
+  .content-border {
+    width: 80%;
+  }
+  .sponsors-content p {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 20px 0 30px;
+  }
+  .sponsor-card {
+    width: 100%;
+  }
+  .needs-content h2 {
+    width: 100%;
+    font-size: 5rem;
+  }
+
+  .needstext {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .needs-card:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .needs-card {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 28px;
+  }
+  .card-content h4 {
+    font-size: 3rem;
+  }
+
+  .card-content p {
+    font-size: 2rem;
+  }
+  .newera-img {
+    justify-content: center;
+  }
+  .newera-content h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    padding-top: 10px;
+  }
+
+  .neweratext {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    padding: 38px 0 80px;
+  }
+  .newera-btn {
+    font-size: 1.5rem;
+    padding: 12px 20px;
+  }
+  .era {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .newbtn {
+    width: 100%;
+    text-align: center;
+  }
+  .newera {
+    width: 100%;
+  }
+  .newera-video {
+    width: 100%;
+    padding: 50px 0 0;
+  }
+  .flex img {
+    width: 25%;
+  }
+  #gameabout p {
+    font-size: 4rem;
+  }
+  .articlestext span {
+    font-size: 6rem;
+  }
+  .articles-btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+  .esport-card img {
+    width: 100%;
+  }
+  .esport-card h5 {
+    font-size: 2rem;
+  }
+
+  .esport-card p {
+    font-size: 5rem;
+  }
+  .esport-card p {
+    width: 100%;
+  }
+  .esports-cards {
+    width: 100%;
+  }
+  .esports-card {
+    width: 100%;
+    padding: 0;
+  }
+  .esports-cards img {
+    width: 100%;
+  }
+  .join h1 {
+    font-size: 5rem;
+    padding-bottom: 35px;
+  }
+  .join-text1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .join-text2 {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
+  .join-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type="email"] {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 12px 8px;
+  }
+  .join-btn {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding: 12px 8px;
+  }
+}

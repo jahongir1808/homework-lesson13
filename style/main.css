@@ -1,0 +1,398 @@
+#sponsors {
+  background: var(--sponsor-bgc);
+  padding: 130px 0;
+}
+
+.sponsors-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content-border_ h2 {
+  font-size: 6rem;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #222730;
+}
+
+.content-border_ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content-border {
+  width: 80%;
+  border-bottom: 4px solid #57b8ff;
+}
+
+.sponsors-content p {
+  width: 45%;
+  font-size: 2rem;
+  line-height: 26px;
+  color: #555555;
+  padding: 27px 0 41px;
+}
+
+.sponsors-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsor-card {
+  width: 15%;
+}
+
+/* NEEDS!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#needs {
+  background-image: url(../images/future-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0;
+}
+
+.needs-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 61px;
+}
+
+.needs-img {
+  display: flex;
+  align-items: center;
+}
+
+.needs-content h2 {
+  width: 60%;
+  font-size: 8rem;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0 39px;
+}
+
+.needstext {
+  width: 60%;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 32px;
+  color: var(--contents);
+}
+
+.needs-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.needs-card:nth-child(odd) {
+  margin-right: 35px;
+}
+
+.needs-card img {
+  padding-right: 14px;
+}
+
+.needs-card {
+  display: flex;
+  align-items: start;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  width: 48.5%;
+  padding: 35px 39px;
+  margin-bottom: 32px;
+}
+
+.card-content h4 {
+  font-size: 4rem;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.card-content p {
+  font-size: 2.25rem;
+  line-height: 28px;
+  color: var(--contents);
+}
+
+/* --------NEW ERA-------------- */
+
+#newera {
+  background: #000000;
+  opacity: 0.99;
+  padding: 86px 0;
+}
+
+.era {
+  display: flex;
+}
+
+.newera {
+  width: 50%;
+}
+
+.newera-img {
+  display: flex;
+  align-items: center;
+}
+
+.newera-content h2 {
+  width: 100%;
+  font-size: 8rem;
+  line-height: 74px;
+  color: #ffffff;
+  padding-top: 12px;
+}
+
+.neweratext {
+  width: 60%;
+  font-size: 2.5rem;
+  line-height: 30px;
+  color: var(--contents);
+  padding: 38px 0 80px;
+}
+.newera-btn {
+  font-size: 2.25rem;
+  line-height: 28px;
+  color: #ffffff;
+  background-color: var(--btn-color);
+  padding: 21px 34px;
+}
+
+.newera-video {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-left: 95px;
+}
+
+.newera-video video {
+  width: 100%;
+}
+
+/* -------------GAME ABOUT--------------- */
+
+#gameabout {
+  display: flex;
+}
+
+.flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fps {
+  display: flex;
+  background-image: url(../images/gaming-img1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 732px;
+  flex-basis: 33.3%;
+}
+.multiplayer {
+  display: flex;
+  flex-basis: 33.3%;
+  background-image: url(../images/gaming-img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.world {
+  display: flex;
+  background-image: url(../images/gaming-img3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-basis: 33.3%;
+  background-position: center;
+}
+
+#gameabout p {
+  font-size: 6rem;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+/* ----------- ARTICLES ------------- */
+
+#articles {
+  background: #000000;
+  opacity: 0.99;
+  padding: 75px 0 87px;
+}
+
+.articles {
+  display: flex;
+  padding-bottom: 64px;
+}
+
+.articles-content {
+  width: 40%;
+}
+
+.articles-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 13px;
+}
+
+.articlestext span {
+  display: flex;
+  width: 100%;
+  font-size: 8rem;
+  line-height: 74px;
+  color: #ffffff;
+}
+
+.articles-btn1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 56.6%;
+}
+
+.articles-btn {
+  font-size: 2.1rem;
+  line-height: 28px;
+  color: #ffffff;
+  background: var(--btn-color);
+  padding: 21px 34px;
+}
+
+/* ---------- ESPORTS -------------- */
+
+.articles-esports {
+  display: flex;
+}
+
+.esport-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.esport-card h5 {
+  font-size: 2.25rem;
+  line-height: 18px;
+  color: #57b8ff;
+  padding: 54px 0 28px;
+}
+
+.esport-card p {
+  font-size: 5.75rem;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.esport-card img {
+  width: 100%;
+}
+
+.esport-card,
+.esports-cards {
+  width: 50%;
+}
+
+.esports-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.esports-card {
+  width: 50%;
+  padding-left: 24px;
+}
+
+.esports-card:nth-child(1) {
+  padding-bottom: 40px;
+}
+.esports-card:nth-child(2) {
+  padding-bottom: 40px;
+}
+.esports-cards h6 {
+  font-size: 2rem;
+  line-height: 16px;
+  color: #57b8ff;
+  padding: 30px 0 30px;
+}
+
+.esports-cards p {
+  font-size: 2.8rem;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+/* ---------- JOIN -------------- */
+
+#join {
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.join h1 {
+  font-size: 9rem;
+  line-height: 82px;
+  color: #141820;
+  margin: 0;
+  padding-bottom: 51px;
+}
+
+.join-text1 {
+  width: 60%;
+  font-size: 2.1rem;
+  line-height: 28px;
+  color: #555555;
+}
+
+.join-text2 {
+  width: 65%;
+  font-size: 2.1rem;
+  line-height: 28px;
+  color: #555555;
+  padding-bottom: 45px;
+}
+
+.join-inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="email"] {
+  width: 37%;
+  font-size: 2.25rem;
+  line-height: 28px;
+  color: #555555;
+  padding: 21px 13px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.join-btn {
+  background: var(--btn-color);
+  font-size: 2.25rem;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 21px 13px;
+}
